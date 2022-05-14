@@ -87,3 +87,11 @@ mysqli_stmt_bind_param($stmt, "ss", $param_username, $param_password);
             }
 
             // Close statement
+mysqli_stmt_close($stmt);
+        }
+    }
+    
+    // Close connection
+    mysqli_close($link);
+}
+?>
