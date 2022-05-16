@@ -81,7 +81,7 @@ mysqli_stmt_bind_param($stmt, "ss", $param_username, $param_password);
             // Attempt to execute the prepared statement
             if(mysqli_stmt_execute($stmt)){
                 // Redirect to login page
-                header("location: login.php");
+                header("location: index.php");
             } else{
                 echo "Oops! Something went wrong. Please try again later.";
             }
