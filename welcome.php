@@ -25,6 +25,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </head>
     <body>
+	<h1 class="my-5">Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to our site.</h1> 
     <div class="hoe">
     <div class="quotes-s">
        <div class="container section aboutThis">
@@ -519,7 +520,11 @@ Modern College of Commerce and Computer Studies
             <div class="up-down"><a href="#">⏫</a>
                 
             </div>
-        </div>    
+        </div>   
+	<p>
+        <a href="reset-password.php" class="btn btn-warning">Reset Your Password</a>
+        <a href="logout.php" class="btn btn-danger ml-3">Sign Out of Your Account</a>
+    </p> 
 <div class="login-form">
         <section>
            <div class="box">
