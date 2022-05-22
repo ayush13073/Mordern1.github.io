@@ -525,30 +525,7 @@ Modern College of Commerce and Computer Studies
         <a href="reset-password.php" class="btn btn-warning">Reset Your Password</a>
         <a href="logout.php" class="btn btn-danger ml-3">Sign Out of Your Account</a>
     </p> 
-<div class="login-form">
-        <section>
-           <div class="box">
-               <div class="form">
-                   <h3 color="white" class="login">Login</h2>
-                   <form>
-                       <div class="input_login">
-                           <input type="text" placeholder="&#129485 Username">
-                       </div>
-                       <div class="input_login">
-                           <input type="text" placeholder="&#128274 Password">
-                           
-                       </div>
-                       <label class="remember"><input type="checkbox"> Remember me</label>
-                       <div class="input_login">
-                           <input type="submit" value="Login">
-                       </div>
-                   </form>
-                   <p> Forget password</p>
-                   <p> Need help ?</p>
-               </div>
-           </div>
-       </section>
-    </div>
+
     
     </body>
 </html>
